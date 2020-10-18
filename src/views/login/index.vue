@@ -45,6 +45,7 @@
                 }
             }
         },
+        props:['username'],
         methods: {
             handleSubmit(name) {
                 this.$refs[name].validate((valid) => {
